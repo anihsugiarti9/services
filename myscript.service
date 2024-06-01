@@ -1,0 +1,8 @@
+[Unit]
+Description=My Script
+
+[Service]
+ExecStart=/usr/bin/python3 /home/cloudsigma/script.py
+
+[Install]
+WantedBy=multi-user.target
